@@ -1,0 +1,19 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Screensharing Extension for Wsx Client",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsGNOs3gsrXdnYoDWoEzSq/mBlIHm8aN+cQcUDbsGMY4Tkwsd+mAN3J/6vCnEyOdvAN/RSB+0yrGTmbp8M7mXDL6AV0CbgXpkRC49QpkBlgomdhMQTYSEleL1prVX2nNSBDTHMXizdfP1lLm8WYs3I37LExd01g7AuefX2bBbgL/UMzWddc5sJaxFcnBehTtqC0WjOObflj+oSdsDB1hsGYTHX1hKSffFLn3I7Bg+7UcPuLtsu4MDmDANeM9HjXfM25ralk2JxaJFAE8YVezJt+r3DkOsG4VDUpF9BOJBH0oicDeW+w0cg11KG7AZ21pFiLyby7Yw/pnCd1Q0n0azgwIDAQAB",
+   "manifest_version": 2,
+   "name": "wsx screen share",
+   "permissions": [ "desktopCapture", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1"
+}
